@@ -1,0 +1,24 @@
+# Core
+torch>=2.1
+transformers>=4.44
+accelerate>=0.33
+bitsandbytes>=0.43          # 4-bit LLaDA loading
+sentencepiece>=0.2
+einops>=0.8
+
+# LLaDA diffusion planner
+# (loads GSAI-ML/LLaDA-8B-Instruct from Hugging Face)
+
+# Reasoner backends (install whichever you use)
+# openai>=1.40
+# ollama>=0.3
+# vllm>=0.6
+# anthropic>=0.34
+# google-generativeai>=0.7
+# together>=1.2
+
+# Data + utilities
+pandas>=2.2
+numpy>=1.26
+tqdm>=4.66
+openpyxl>=3.1               # for resume-from-eval-xlsx and result aggregation

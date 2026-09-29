@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Outputs
+plans/
+results/
+*.jsonl
+*.log
+*.xlsx
+*.csv
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Model weights
+*.bin
+*.safetensors
+checkpoints/
